@@ -1,0 +1,9 @@
+defaults:  &defaults
+# Where downloaded templates are stored.
+  template_dir: templates
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
